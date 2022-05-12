@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 .zakat_container {
   height: 100vh !important;
   position: relative;
@@ -15,11 +19,35 @@
   /* top: 100px; */
 }
 
-
-.zakat-container{
+.zakat-container {
   overflow-x: hidden;
   height: 100%;
   padding: 40px;
   padding-bottom: 120px !important;
   box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .zakat-container {
+    height: 44vh;
+  }
+  .navber {
+    position: absolute;
+    top: 307px;
+    width: 100%;
+    z-index: 99999;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .zakat-container {
+    height: 61vh;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .zakat-container {
+    height: 81vh;
+  }
 }
