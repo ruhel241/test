@@ -30,11 +30,11 @@
 
 @media only screen and (max-width: 600px) {
   .zakat-container {
-    height: 44vh;
+    height: 69vh;
   }
   .navber {
     position: absolute;
-    top: 307px;
+    top: 532px;
     width: 100%;
     z-index: 99999;
   }
